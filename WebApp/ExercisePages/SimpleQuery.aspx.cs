@@ -7,11 +7,13 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 
 #region Additional Namespaces
-
+using NWSystem.BLL;
+using NWSystem.ENTITIES;
 
 #endregion
 
-namespace WebApp.SamplePages
+namespace WebApp.ExercisePages
+
 {
     public partial class SimpleQuery : System.Web.UI.Page
     {

@@ -65,6 +65,11 @@
                                             style="color:black" runat="server">
                                             ExerciseHome
                                     </a>
+                                    <a class="dropdown-item"
+                                            href="~/ExercisePages/SimpleQuery.aspx"
+                                            style="color:black" runat="server">
+                                            Simple PKey Query
+                                    </a>
                                 </div>
                             </li>
                             <li class="nav-item">
