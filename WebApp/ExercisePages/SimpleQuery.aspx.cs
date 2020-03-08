@@ -19,8 +19,7 @@ namespace WebApp.ExercisePages
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            //empty old messages
-            MessageLabel.Text = "";
+             MessageLabel.Text = "";
         }
 
         protected void Fetch_Click(object sender, EventArgs e)
@@ -40,9 +39,6 @@ namespace WebApp.ExercisePages
                         Region info = null;
                         //make your call to the BLL controller method
                         info = sysmgr.Regions_FindByID(regionid);
-                        //test for results
-                        //single record test for null
-                        //List<T> test for .Count
                         if (info == null)
                         {
                             MessageLabel.Text = "Region ID not found.";
@@ -54,12 +50,6 @@ namespace WebApp.ExercisePages
                             RegionID.Text = info.RegionID.ToString();
                             RegionDescription.Text = info.RegionDescription;
                         }
-
-                        //}
-                        //catch(Exception ex)
-                        //{
-                        //    MessageLabel.Text = ex.Message;
-                        //}
                     }
                     else
                     {
