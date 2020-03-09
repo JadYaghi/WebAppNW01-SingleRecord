@@ -10,13 +10,6 @@ namespace NWSystem.BLL
 {
     public class RegionController
     {
-        public List<Region> Regions_List()
-        {
-            using (var context = new NWContext())
-            {
-                return context.Regions.ToList();
-            }
-        }
         public Region Regions_FindByID(int regionid)
         {
             using (var context = new NWContext())
