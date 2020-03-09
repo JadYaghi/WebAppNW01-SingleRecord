@@ -6,11 +6,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-#region Additional Namespaces
 using NWSystem.BLL;
 using NWSystem.ENTITIES;
 
-#endregion
 
 namespace WebApp.ExercisePages
 
