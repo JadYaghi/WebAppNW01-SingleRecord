@@ -37,8 +37,7 @@ namespace WebApp.ExercisePages
                     {
                         RegionController sysmgr = new RegionController();
                         Region info = null;
-                        //make your call to the BLL controller method
-                        info = sysmgr.Regions_FindByID(regionid);
+                        info = sysmgr.Regions_FindByID(regionid); //BLL controller method
                         if (info == null)
                         {
                             MessageLabel.Text = "Region ID not found.";
