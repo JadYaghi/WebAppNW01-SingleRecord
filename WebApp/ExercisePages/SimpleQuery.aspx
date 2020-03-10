@@ -8,7 +8,7 @@
                 <asp:TextBox id="RegionIDArg" runat="server"></asp:TextBox>&nbsp;&nbsp;
                 <asp:Button id="Fetch" runat="server" Text="Fetch" OnClick="Fetch_Click" />
                 <br /><br />
-                <asp:Label id="MessageLabel" runat="server" ></asp:Label>
+                <asp:Label id="MessageLabel" runat="server"></asp:Label>
             </div>
         </div>
         <div class="col-md-6">
