@@ -1,12 +1,12 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="SimpleQuery.aspx.cs" Inherits="WebApp.ExercisePages.SimpleQuery" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="PartialSearchGridView.aspx.cs" Inherits="WebApp.ExercisePages.PartialSearchGridView" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <h1>Simple Query by Primary Key</h1>
+    <h1>Partial Search to DropDown Selection to GridView</h1>
     <div class="row">
         <div class="col-md-6">
             <div class="offset-1">
-                <asp:Label runat="server" Text="Enter a Region ID:"></asp:Label>&nbsp;&nbsp;
-                <asp:TextBox id="RegionIDArg" runat="server"></asp:TextBox>&nbsp;&nbsp;
-                <asp:Button id="Fetch" runat="server" Text="Fetch" OnClick="Fetch_Click" />
+                <asp:Label runat="server" Text="Enter a partial product name:"></asp:Label>&nbsp;&nbsp;
+                <asp:TextBox id="PartialProductNameArg" runat="server"></asp:TextBox>&nbsp;&nbsp;
+                <asp:Button id="SearchProductsPartial" runat="server" Text="Fetch" OnClick="SearchProductsPartial_Click" />
                 <br /><br />
                 <asp:Label id="MessageLabel" runat="server"></asp:Label>
             </div>

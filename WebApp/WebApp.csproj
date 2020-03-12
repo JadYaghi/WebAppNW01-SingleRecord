@@ -126,6 +126,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="ExercisePages\ExerciseHome.aspx" />
+    <Content Include="ExercisePages\PartialSearchGridView.aspx" />
     <Content Include="ExercisePages\SimpleQuery.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
@@ -303,6 +304,13 @@
     </Compile>
     <Compile Include="ExercisePages\ExerciseHome.aspx.designer.cs">
       <DependentUpon>ExerciseHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExercisePages\PartialSearchGridView.aspx.cs">
+      <DependentUpon>PartialSearchGridView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExercisePages\PartialSearchGridView.aspx.designer.cs">
+      <DependentUpon>PartialSearchGridView.aspx</DependentUpon>
     </Compile>
     <Compile Include="ExercisePages\SimpleQuery.aspx.cs">
       <DependentUpon>SimpleQuery.aspx</DependentUpon>
