@@ -127,7 +127,7 @@
     <Content Include="Default.aspx" />
     <Content Include="ExercisePages\ExerciseHome.aspx" />
     <Content Include="ExercisePages\PartialSearchGridView.aspx" />
-    <Content Include="ExercisePages\SimpleQuery.aspx" />
+    <Content Include="ExercisePages\SingleRecordQuery.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -312,12 +312,12 @@
     <Compile Include="ExercisePages\PartialSearchGridView.aspx.designer.cs">
       <DependentUpon>PartialSearchGridView.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ExercisePages\SimpleQuery.aspx.cs">
-      <DependentUpon>SimpleQuery.aspx</DependentUpon>
+    <Compile Include="ExercisePages\SingleRecordQuery.aspx.cs">
+      <DependentUpon>SingleRecordQuery.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ExercisePages\SimpleQuery.aspx.designer.cs">
-      <DependentUpon>SimpleQuery.aspx</DependentUpon>
+    <Compile Include="ExercisePages\SingleRecordQuery.aspx.designer.cs">
+      <DependentUpon>SingleRecordQuery.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

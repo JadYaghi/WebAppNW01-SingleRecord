@@ -11,7 +11,7 @@ namespace WebApp.ExercisePages
 {
 
 
-    public partial class SimpleQuery
+    public partial class SingleRecordQuery
     {
 
         /// <summary>
